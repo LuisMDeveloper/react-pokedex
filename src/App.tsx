@@ -1,7 +1,13 @@
+import {Header} from "./components/Header";
+import {MainContainer} from "./components/atoms/MainContainer";
+import {PokemonGrid} from "./components/PokemonGrid";
 
 function App() {
   return (
-    <p>Hello World!</p>
+    <MainContainer>
+      <Header/>
+      <PokemonGrid/>
+    </MainContainer>
   );
 }
 
